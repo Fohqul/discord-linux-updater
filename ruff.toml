@@ -1,0 +1,7 @@
+[lint]
+ignore = [
+	"E402", # PyGObject has to run `gi.require_version` before it can import
+]
+
+[format]
+indent-style = "tab"
